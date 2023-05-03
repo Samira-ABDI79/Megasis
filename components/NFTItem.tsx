@@ -10,12 +10,12 @@ const NftItem = ({ NFT }: any) => {
 
   return (
 
-    <Link href={`/nft/${NFT?.id}`}>
+    <Link href={`/articles/${NFT?.id}`}>
 
 <div className="flex mx-5 flex-wrap p-4 bg-white  my-1 md:my-0 border-gray-200 w-full border-l border-r border-b">
 <div className="w-full md:w-2/5">
 <a href="/event/ekos-genesis-art-collection/">
-<Image className="rounded-sm" loading="lazy" alt="NFT image" src={NFT.image}/>
+<Image className="rounded-sm" loading="lazy" width={100} height={100} alt="NFT image" src={NFT.image}/>
 </a>
 </div>
 <div className="w-full px-2 py-3 md:w-3/5 md:py-5 md:px-8">

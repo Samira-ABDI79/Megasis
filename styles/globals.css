@@ -23,3 +23,6 @@ body {
     border-style: solid;
     border-color: #e5e5e5;
 }
+main {
+    min-height: 100vh;
+}
