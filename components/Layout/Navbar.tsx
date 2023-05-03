@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -15,10 +16,10 @@ const [showMoal,setShowModal]=useState(false);
 <div className="w-full bg-white border-t-2 border-gray-800 shadow dark:bg-stone-900 dark:border-t-0 dark:border-b-2 dark:border-gray-300/10 ">
 <div className="flex flex-wrap items-center justify-between md:py-2 py-1 px-2 md:px-4 mx-auto text-sm max-w-screen-2xl">
 <div className="flex flex-wrap px-2 md:px-6 lg:pr-8">
-<a className="flex items-center text-black hover:text-gray-600 dark:text-yellow-50 dark:hover:text-lime-200 " href="/">
-<img className="inline-block w-10 h-10" src="/assets/logo/nftcalendar-logo.png" alt="NFT Calendar"/>
+<Link className="flex items-center text-black hover:text-gray-600 dark:text-yellow-50 dark:hover:text-lime-200 " href="/">
+<Image className="inline-block w-10 h-10" src="/assets/nftcalendar-logo.png" alt="NFT Calendar"/>
 <span className="block p-1 text-base uppercase md:text-xl pressstart">NFTCalendar</span>
-</a>
+</Link>
 </div>
 <div className="flex flex-wrap items-center">
 <div className="hidden md:flex md:flex-wrap items-center">

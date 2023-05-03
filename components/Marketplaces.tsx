@@ -9,7 +9,7 @@ export default function Marketplaces({ NFTs }: any) {
 
   return (
 
-    <div>
+    <>
 
       <Head>
 
@@ -25,7 +25,7 @@ export default function Marketplaces({ NFTs }: any) {
 
       <NFTList NFTs={NFTs} />
 
-    </div>
+    </>
 
   );
 

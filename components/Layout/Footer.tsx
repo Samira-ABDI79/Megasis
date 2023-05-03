@@ -1,12 +1,15 @@
+import Image from "next/image"
+import Link from "next/link"
+
 export const Footer=()=>{
 return(
     <>
-  <footer className="mt-2">
+  <footer className="mt-80 sticky bottom-0 w-full">
 <div className="bg-gray-800">
 <div className="px-4 pt-8 pb-2 mx-auto max-w-screen-2xl sm:px-6 lg:py-6 lg:px-8">
 <div className="xl:grid xl:grid-cols-3 xl:gap-8">
 <div className="xl:col-span-1">
-<img className="h-10" src="" alt="NFT Calendar"/>
+<Image className="h-10" src="/assets/book.svg" alt="NFT Calendar"/>
 <p className="mt-4 text-sm leading-6 text-gray-300">
 NFTCalendar is the first release and event calendar for the growing Non-Fungible Token industry. We cover the most interesting events and NFT drops across marketplaces and platforms.
 </p>
@@ -128,9 +131,9 @@ NFT Calendar
 </h4>
 <ul className="mt-3">
 <li className="mt-3">
-<a href="/" className="text-base leading-6 text-gray-300 hover:text-white">
+<Link href="/" className="text-base leading-6 text-gray-300 hover:text-white">
 Home
-</a>
+</Link>
 </li>
 <li className="mt-3">
 <a href="/about/" className="text-base leading-6 text-gray-300 hover:text-white">

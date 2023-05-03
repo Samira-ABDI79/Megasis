@@ -1,10 +1,10 @@
 import { ReactNode } from "react";
 
-import styles from "../../styles/Layout.module.css";
+
 import { Footer } from "./Footer";
 import Navbar from "./Navbar";
 
-import Header from "./Header";
+
 
 
 
@@ -29,15 +29,15 @@ const Layout = ({ children }: PropType) => {
 
 
 
-      <div className={styles.container}>
+      <div className="container">
 
-        <main className={styles.main}>
+        
 
-          <Header />
+        
 
           {children}
 
-        </main>
+    
 
       </div>
       <Footer />

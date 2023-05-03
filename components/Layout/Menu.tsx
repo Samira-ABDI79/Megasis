@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Menu (){
     return(
         <>
@@ -15,12 +17,12 @@ Drop Feed
 </h3>
 <ul className="px-4 space-y-4">
 <li className="flow-root">
-<a href="/" className="flex items-center p-3 -m-3 space-x-4 text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out rounded-md hover:bg-gray-50 dark:text-yellow-50 dark:hover:text-lime-200 dark:hover:bg-zinc-700">
+<Link href="/" className="flex items-center p-3 -m-3 space-x-4 text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out rounded-md hover:bg-gray-50 dark:text-yellow-50 dark:hover:text-lime-200 dark:hover:bg-zinc-700">
 <svg className="flex-shrink-0 w-6 h-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
 </svg>
 <span>Today</span>
-</a>
+</Link>
 </li>
 <li className="flow-root">
 <a href="/events/" className="flex items-center p-3 -m-3 space-x-4 text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out rounded-md hover:bg-gray-50 dark:text-yellow-50 dark:hover:text-lime-200 dark:hover:bg-zinc-700">

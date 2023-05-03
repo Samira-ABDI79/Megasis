@@ -1,4 +1,4 @@
-import NFTStyles from "../styles/NFT.module.css";
+
 
 import NFTItem from "./NFTItem";
 
@@ -9,7 +9,7 @@ const NFTList = ({ NFTs }: any) => {
 
   return (
 
-    <div className={NFTStyles.grid}>
+    <div className="flex flex-col my-12">
 
       {NFTs?.map((NFT: any) => (
 
