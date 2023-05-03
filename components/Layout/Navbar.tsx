@@ -17,7 +17,7 @@ const [showMoal,setShowModal]=useState(false);
 <div className="flex flex-wrap items-center justify-between md:py-2 py-1 px-2 md:px-4 mx-auto text-sm max-w-screen-2xl">
 <div className="flex flex-wrap px-2 md:px-6 lg:pr-8">
 <Link className="flex items-center text-black hover:text-gray-600 dark:text-yellow-50 dark:hover:text-lime-200 " href="/">
-<Image className="inline-block w-10 h-10" src="/assets/nftcalendar-logo.png" alt="NFT Calendar"/>
+<Image className="inline-block w-10 h-10" src="/assets/nftcalendar-logo.png" width={15} height={15} alt="NFT Calendar"/>
 <span className="block p-1 text-base uppercase md:text-xl pressstart">NFTCalendar</span>
 </Link>
 </div>

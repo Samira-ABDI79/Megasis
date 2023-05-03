@@ -1,6 +1,7 @@
 import Marketplaces from "@/components/Marketplaces";
 import Head from "next/head";
-
+import {nfts as articles} from '../db.json'
+console.log(articles);
 
 
 
@@ -31,26 +32,29 @@ export default function Home({ articles }: any) {
   );
 
 }
-export const getStaticProps = async () => {
-
-  const res = await fetch(`http://localhost:3004/nfts?_limit=6`);
 
 
 
+// export const getStaticProps = async () => {
 
-  const articles = await res.json();
+//   const res = await fetch(`http://localhost:3004/nfts?_limit=6`);
 
 
 
 
-  return {
+//   const articles = await res.json();
 
-    props: {
 
-      articles,
 
-    },
 
-  };
+//   return {
 
-};
+//     props: {
+
+//       articles,
+
+//     },
+
+//   };
+
+// };

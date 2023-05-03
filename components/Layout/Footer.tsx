@@ -9,7 +9,7 @@ return(
 <div className="px-4 pt-8 pb-2 mx-auto max-w-screen-2xl sm:px-6 lg:py-6 lg:px-8">
 <div className="xl:grid xl:grid-cols-3 xl:gap-8">
 <div className="xl:col-span-1">
-<Image className="h-10" src="/assets/book.svg" alt="NFT Calendar"/>
+<Image className="h-10" width={15} height={15}  src="/assets/book.svg" alt="NFT Calendar"/>
 <p className="mt-4 text-sm leading-6 text-gray-300">
 NFTCalendar is the first release and event calendar for the growing Non-Fungible Token industry. We cover the most interesting events and NFT drops across marketplaces and platforms.
 </p>
