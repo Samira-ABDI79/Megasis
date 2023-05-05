@@ -4,8 +4,10 @@ import Tags from "./Tags";
 function SlideBar() {
   return (
     <>
-      <Blockchain />
-      <Tags />
+      <div className=" flex-col lg:flex hidden">
+        <Blockchain />
+        <Tags />
+      </div>
     </>
   );
 }

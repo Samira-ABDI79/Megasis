@@ -11,20 +11,25 @@ const article = ({ article }: any) => {
   const [popUp, setShowpopUp] = useState(false);
   return (
     <>
-      <div className="mt-12 grid grid-cols-3 gap-8">
+      <div className="mt-12 grid lg:grid-cols-3 grid-cols-1 gap-12">
         <div className="col-span-2">
           <section className="bg-white border border-gray-200 rounded p-6  ">
             <div className="   mb-6  ">
               <h1 className="font-serif text-3xl font-medium text-black md:text-4xl dark:text-yellow-100">
                 {article.name}
               </h1>
-              <div className="w-full h-[300px]  rounded my-4">
-                <Image
-                  src="/assets/img.png"
+              <div className="w-full h-[500px]  rounded my-4">
+                {/* <Image
+                  src={article.image}
                   width={700}
                   alt="nft img"
                   height={100}
                   className="w-full h-[300px]  rounded my-4"
+                /> */}
+                <img
+                  src={article.image}
+                  alt={article.name}
+                  className="w-full h-[500px]  rounded my-4"
                 />
               </div>
               <div className="px-3 pt-4 pb-2 mt-4 mb-2 border border-gray-100 rounded  bg-gray-50 dark:border-gray-700 dark:bg-zinc-800">
