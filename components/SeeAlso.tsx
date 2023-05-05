@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import Tags from "./Tags";
 function SeeAlso() {
   const [articles, setArticles] = useState([]);
 

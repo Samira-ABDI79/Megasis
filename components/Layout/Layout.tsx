@@ -13,7 +13,7 @@ const Layout = ({ children }: PropType) => {
       <Navbar />
 
       <main className="container ">{children}</main>
-      {/* <Footer  /> */}
+      <Footer />
     </>
   );
 };
