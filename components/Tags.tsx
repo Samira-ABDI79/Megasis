@@ -1,15 +1,16 @@
 import { useState, useEffect } from "react";
+import { tags } from "@/data";
 function Tags() {
-  const [tags, setTags] = useState([]);
+  // const [tags, setTags] = useState([]);
 
-  const sendrequest = async () => {
-    const response = await fetch("http://localhost:3004/tags");
-    const responseData = await response.json();
-    setTags(responseData);
-  };
-  useEffect(() => {
-    sendrequest();
-  }, []);
+  // const sendrequest = async () => {
+  //   const response = await fetch("http://localhost:3004/tags");
+  //   const responseData = await response.json();
+  //   setTags(responseData);
+  // };
+  // useEffect(() => {
+  //   sendrequest();
+  // }, []);
   return (
     <>
       <div className="py-2 mb-2 px-1">

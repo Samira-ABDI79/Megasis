@@ -1,0 +1,349 @@
+export const tags = [
+  {
+    id: 1,
+    label: "2D",
+  },
+  {
+    id: 1,
+    label: "3D",
+  },
+  {
+    id: 1,
+    label: "art",
+  },
+  {
+    id: 1,
+    label: "auction",
+  },
+  {
+    id: 1,
+    label: "charity",
+  },
+  {
+    id: 1,
+    label: "collab",
+  },
+  {
+    id: 1,
+    label: "collectible",
+  },
+  {
+    id: 1,
+    label: "dao",
+  },
+  {
+    id: 1,
+    label: "defi",
+  },
+  {
+    id: 1,
+    label: "freemint",
+  },
+  {
+    id: 1,
+    label: "game",
+  },
+  {
+    id: 1,
+    label: "generative",
+  },
+  {
+    id: 1,
+    label: "giveaway",
+  },
+  {
+    id: 1,
+    label: "metaverse",
+  },
+  {
+    id: 1,
+    label: "music",
+  },
+  {
+    id: 1,
+    label: "photo",
+  },
+  {
+    id: 1,
+    label: "pixel",
+  },
+  {
+    id: 1,
+    label: "rewards",
+  },
+  {
+    id: 1,
+    label: "sports",
+  },
+  {
+    id: 1,
+    label: "video",
+  },
+];
+
+export const nfts = [
+  {
+    id: 1,
+    verified: true,
+    image:
+      "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?size=626&ext=jpg&ga=GA1.2.1113169498.1683297183",
+    date: "May 02, 2023 –May 09, 2023",
+    name: "Dead Ape Country Club",
+    website: "https://deadapecountryclub.com/",
+    twitter: "https://twitter.com/jbhunt17",
+    discord: "https://discord.com/invite/m7BfEftxVp",
+    marketplaceURL:
+      "https://gamma.io/ordinals/collections/dead-ape-country-club",
+    marketplace: "https://nftcalendar.io/marketplace/gamma/",
+    marketplaceName: "Gamma",
+    blockchain: "https://nftcalendar.io/b/bitcoin/",
+    blockchainName: "Bitcoin Ordinals",
+    contract: "",
+    ausist: "",
+    description:
+      "The Dead Ape Country Club project was created to solely be unique artifacts inscribed on the Bitcoin blockchain for all of  perpetuity. While other Ape NFT projects may die out and disappear down the road along with their servers, The perseverance and adoption of Bitcoin will keep this Country Club alive forever. Today, the dead apes are looking to gather all of the legendary names in crypto and Defi to pay homage to all the dead ape projects that might come and go on other chains. It's a reminder to stay true to your vision and never give up.",
+    tags: "",
+  },
+  {
+    id: 2,
+    verified: true,
+    image:
+      "https://img.freepik.com/free-photo/children-playing-grass_1098-504.jpg?size=626&ext=jpg&ga=GA1.2.1113169498.1683297183",
+    date: "May 02, 2023 – May 02, 2023",
+    name: "Ekos Genesis Art Collection by Marvel Studios Founder",
+    website: "https://deadapecountryclub.com/",
+    twitter: "https://twitter.com/jbhunt17",
+    discord: "https://discord.com/invite/m7BfEftxVp",
+    marketplaceURL:
+      "https://gamma.io/ordinals/collections/dead-ape-country-club",
+    marketplace: "https://nftcalendar.io/marketplace/gamma/",
+    marketplaceName: "Gamma",
+    blockchain: "https://nftcalendar.io/b/bitcoin/",
+    blockchainName: "Bitcoin Ordinals",
+    contract: "",
+    ausist: "",
+    description:
+      "The Dead Ape Country Club project was created to solely be unique artifacts inscribed on the Bitcoin blockchain for all of  perpetuity. While other Ape NFT projects may die out and disappear down the road along with their servers, The perseverance and adoption of Bitcoin will keep this Country Club alive forever. Today, the dead apes are looking to gather all of the legendary names in crypto and Defi to pay homage to all the dead ape projects that might come and go on other chains. It's a reminder to stay true to your vision and never give up.",
+    tags: "",
+  },
+  {
+    id: 3,
+    verified: true,
+    image:
+      "https://img.freepik.com/premium-photo/forest-trees_87394-19.jpg?size=626&ext=jpg&ga=GA1.1.1113169498.1683297183",
+    date: "May 02, 2023 – May 09, 2023",
+    name: "Dead Ape Country Club",
+    website: "https://deadapecountryclub.com/",
+    twitter: "https://twitter.com/jbhunt17",
+    discord: "https://discord.com/invite/m7BfEftxVp",
+    marketplaceURL:
+      "https://gamma.io/ordinals/collections/dead-ape-country-club",
+    marketplace: "https://nftcalendar.io/marketplace/gamma/",
+    marketplaceName: "Gamma",
+    blockchain: "https://nftcalendar.io/b/bitcoin/",
+    blockchainName: "Bitcoin Ordinals",
+    contract: "",
+    ausist: "",
+    description:
+      "The Dead Ape Country Club project was created to solely be unique artifacts inscribed on the Bitcoin blockchain for all of  perpetuity. While other Ape NFT projects may die out and disappear down the road along with their servers, The perseverance and adoption of Bitcoin will keep this Country Club alive forever. Today, the dead apes are looking to gather all of the legendary names in crypto and Defi to pay homage to all the dead ape projects that might come and go on other chains. It's a reminder to stay true to your vision and never give up.",
+    tags: "",
+  },
+  {
+    id: 4,
+    verified: true,
+    image:
+      "https://img.freepik.com/free-photo/blank-bus-stop-advertising-billboard-city_23-2147922056.jpg?size=626&ext=jpg&ga=GA1.1.1113169498.1683297183",
+    date: "May 02, 2023 – May 09, 2023",
+    name: "Nakamoto_1 Concept Art",
+    website: "https://deadapecountryclub.com/",
+    twitter: "https://twitter.com/jbhunt17",
+    discord: "https://discord.com/invite/m7BfEftxVp",
+    marketplaceURL:
+      "https://gamma.io/ordinals/collections/dead-ape-country-club",
+    marketplace: "https://nftcalendar.io/marketplace/gamma/",
+    marketplaceName: "Gamma",
+    blockchain: "https://nftcalendar.io/b/bitcoin/",
+    blockchainName: "Bitcoin Ordinals",
+    contract: "",
+    ausist: "",
+    description:
+      "The Dead Ape Country Club project was created to solely be unique artifacts inscribed on the Bitcoin blockchain for all of  perpetuity. While other Ape NFT projects may die out and disappear down the road along with their servers, The perseverance and adoption of Bitcoin will keep this Country Club alive forever. Today, the dead apes are looking to gather all of the legendary names in crypto and Defi to pay homage to all the dead ape projects that might come and go on other chains. It's a reminder to stay true to your vision and never give up.",
+    tags: "",
+  },
+  {
+    id: 5,
+    verified: true,
+    image:
+      "https://img.freepik.com/free-photo/man-worker-firld-by-solar-panels_1303-15597.jpg?size=626&ext=jpg&ga=GA1.1.1113169498.1683297183",
+    date: "May 02, 2023 – May 09, 2023",
+    name: "strike twice",
+    website: "https://deadapecountryclub.com/",
+    twitter: "https://twitter.com/jbhunt17",
+    discord: "https://discord.com/invite/m7BfEftxVp",
+    marketplaceURL:
+      "https://gamma.io/ordinals/collections/dead-ape-country-club",
+    marketplace: "https://nftcalendar.io/marketplace/gamma/",
+    marketplaceName: "Gamma",
+    blockchain: "https://nftcalendar.io/b/bitcoin/",
+    blockchainName: "Bitcoin Ordinals",
+    contract: "",
+    ausist: "",
+    description:
+      "The Dead Ape Country Club project was created to solely be unique artifacts inscribed on the Bitcoin blockchain for all of  perpetuity. While other Ape NFT projects may die out and disappear down the road along with their servers, The perseverance and adoption of Bitcoin will keep this Country Club alive forever. Today, the dead apes are looking to gather all of the legendary names in crypto and Defi to pay homage to all the dead ape projects that might come and go on other chains. It's a reminder to stay true to your vision and never give up.",
+    tags: "",
+  },
+  {
+    id: 6,
+    verified: true,
+    image:
+      "https://img.freepik.com/free-photo/coffee-beans-levitate-white-background_485709-33.jpg?size=626&ext=jpg&ga=GA1.2.1113169498.1683297183",
+    date: "May 02, 2023 – May 06, 2023 ",
+    name: "Fractured Flashbacks",
+    website: "https://deadapecountryclub.com/",
+    twitter: "https://twitter.com/jbhunt17",
+    discord: "https://discord.com/invite/m7BfEftxVp",
+    marketplaceURL:
+      "https://gamma.io/ordinals/collections/dead-ape-country-club",
+    marketplace: "https://nftcalendar.io/marketplace/gamma/",
+    marketplaceName: "Gamma",
+    blockchain: "https://nftcalendar.io/b/bitcoin/",
+    blockchainName: "Bitcoin Ordinals",
+    contract: "",
+    ausist: "",
+    description:
+      "The Dead Ape Country Club project was created to solely be unique artifacts inscribed on the Bitcoin blockchain for all of  perpetuity. While other Ape NFT projects may die out and disappear down the road along with their servers, The perseverance and adoption of Bitcoin will keep this Country Club alive forever. Today, the dead apes are looking to gather all of the legendary names in crypto and Defi to pay homage to all the dead ape projects that might come and go on other chains. It's a reminder to stay true to your vision and never give up.",
+    tags: "",
+  },
+  {
+    id: 7,
+    verified: true,
+    image:
+      "https://img.freepik.com/free-photo/red-black-brush-stroke-banner-background-perfect-canva_1361-3597.jpg?size=626&ext=jpg&ga=GA1.2.1113169498.1683297183",
+    date: "May 02, 2023 – May 04, 2023",
+    name: "Self Discovery by Chewy Stoll",
+    website: "https://deadapecountryclub.com/",
+    twitter: "https://twitter.com/jbhunt17",
+    discord: "https://discord.com/invite/m7BfEftxVp",
+    marketplaceURL:
+      "https://gamma.io/ordinals/collections/dead-ape-country-club",
+    marketplace: "https://nftcalendar.io/marketplace/gamma/",
+    marketplaceName: "Gamma",
+    blockchain: "https://nftcalendar.io/b/bitcoin/",
+    blockchainName: "Bitcoin Ordinals",
+    contract: "",
+    ausist: "",
+    description:
+      "The Dead Ape Country Club project was created to solely be unique artifacts inscribed on the Bitcoin blockchain for all of  perpetuity. While other Ape NFT projects may die out and disappear down the road along with their servers, The perseverance and adoption of Bitcoin will keep this Country Club alive forever. Today, the dead apes are looking to gather all of the legendary names in crypto and Defi to pay homage to all the dead ape projects that might come and go on other chains. It's a reminder to stay true to your vision and never give up.",
+    tags: "",
+  },
+  {
+    id: 8,
+    verified: true,
+    image:
+      "https://img.freepik.com/free-photo/close-up-businessman-with-digital-tablet_1098-549.jpg?size=626&ext=jpg&ga=GA1.1.1113169498.1683297183",
+    date: "May 02, 2023 – May 06, 2023",
+    name: "Enchanted Connections",
+    website: "https://deadapecountryclub.com/",
+    twitter: "https://twitter.com/jbhunt17",
+    discord: "https://discord.com/invite/m7BfEftxVp",
+    marketplaceURL:
+      "https://gamma.io/ordinals/collections/dead-ape-country-club",
+    marketplace: "https://nftcalendar.io/marketplace/gamma/",
+    marketplaceName: "Gamma",
+    blockchain: "https://nftcalendar.io/b/bitcoin/",
+    blockchainName: "Bitcoin Ordinals",
+    contract: "",
+    ausist: "",
+    description:
+      "The Dead Ape Country Club project was created to solely be unique artifacts inscribed on the Bitcoin blockchain for all of  perpetuity. While other Ape NFT projects may die out and disappear down the road along with their servers, The perseverance and adoption of Bitcoin will keep this Country Club alive forever. Today, the dead apes are looking to gather all of the legendary names in crypto and Defi to pay homage to all the dead ape projects that might come and go on other chains. It's a reminder to stay true to your vision and never give up.",
+    tags: "",
+  },
+  {
+    id: 9,
+    verified: true,
+    image:
+      "https://img.freepik.com/premium-photo/happy-mother-s-day-concept-child-daughter-congratulates-mom-gives-her-flowers-tulips_1429-4870.jpg?size=626&ext=jpg&ga=GA1.1.1113169498.1683297183",
+    date: "May 02, 2023 – May 09, 2023",
+    name: "Nature is Metal x Spizak",
+    website: "https://deadapecountryclub.com/",
+    twitter: "https://twitter.com/jbhunt17",
+    discord: "https://discord.com/invite/m7BfEftxVp",
+    marketplaceURL:
+      "https://gamma.io/ordinals/collections/dead-ape-country-club",
+    marketplace: "https://nftcalendar.io/marketplace/gamma/",
+    marketplaceName: "Gamma",
+    blockchain: "https://nftcalendar.io/b/bitcoin/",
+    blockchainName: "Bitcoin Ordinals",
+    contract: "",
+    ausist: "",
+    description:
+      "The Dead Ape Country Club project was created to solely be unique artifacts inscribed on the Bitcoin blockchain for all of  perpetuity. While other Ape NFT projects may die out and disappear down the road along with their servers, The perseverance and adoption of Bitcoin will keep this Country Club alive forever. Today, the dead apes are looking to gather all of the legendary names in crypto and Defi to pay homage to all the dead ape projects that might come and go on other chains. It's a reminder to stay true to your vision and never give up.",
+    tags: "",
+  },
+  {
+    id: 10,
+    verified: true,
+    image:
+      "https://img.freepik.com/premium-photo/digital-cyberspace-data-network-connections_24070-1044.jpg?size=626&ext=jpg&ga=GA1.1.1113169498.1683297183",
+    date: "May 02, 2023 – May 09, 2023",
+    name: "Anima",
+    website: "https://deadapecountryclub.com/",
+    twitter: "https://twitter.com/jbhunt17",
+    discord: "https://discord.com/invite/m7BfEftxVp",
+    marketplaceURL:
+      "https://gamma.io/ordinals/collections/dead-ape-country-club",
+    marketplace: "https://nftcalendar.io/marketplace/gamma/",
+    marketplaceName: "Gamma",
+    blockchain: "https://nftcalendar.io/b/bitcoin/",
+    blockchainName: "Bitcoin Ordinals",
+    contract: "",
+    ausist: "",
+    description:
+      "The Dead Ape Country Club project was created to solely be unique artifacts inscribed on the Bitcoin blockchain for all of  perpetuity. While other Ape NFT projects may die out and disappear down the road along with their servers, The perseverance and adoption of Bitcoin will keep this Country Club alive forever. Today, the dead apes are looking to gather all of the legendary names in crypto and Defi to pay homage to all the dead ape projects that might come and go on other chains. It's a reminder to stay true to your vision and never give up.",
+    tags: "",
+  },
+  {
+    id: 11,
+    verified: true,
+    image:
+      "https://img.freepik.com/free-photo/grunge-paint-background_1409-1337.jpg?size=626&ext=jpg&ga=GA1.1.1113169498.1683297183",
+    date: "May 02, 2023 – May 09, 2023",
+    name: "Sculpt",
+    website: "https://deadapecountryclub.com/",
+    twitter: "https://twitter.com/jbhunt17",
+    discord: "https://discord.com/invite/m7BfEftxVp",
+    marketplaceURL:
+      "https://gamma.io/ordinals/collections/dead-ape-country-club",
+    marketplace: "https://nftcalendar.io/marketplace/gamma/",
+    marketplaceName: "Gamma",
+    blockchain: "https://nftcalendar.io/b/bitcoin/",
+    blockchainName: "Bitcoin Ordinals",
+    contract: "",
+    ausist: "",
+    description:
+      "The Dead Ape Country Club project was created to solely be unique artifacts inscribed on the Bitcoin blockchain for all of  perpetuity. While other Ape NFT projects may die out and disappear down the road along with their servers, The perseverance and adoption of Bitcoin will keep this Country Club alive forever. Today, the dead apes are looking to gather all of the legendary names in crypto and Defi to pay homage to all the dead ape projects that might come and go on other chains. It's a reminder to stay true to your vision and never give up.",
+    tags: "",
+  },
+  {
+    id: 12,
+    verified: false,
+    image:
+      "https://img.freepik.com/free-photo/chic-modern-luxury-aesthetics-style-living-room-blue-tone_53876-125839.jpg?size=626&ext=jpg&ga=GA1.1.1113169498.1683297183",
+    date: "May 02, 2023 – May 09, 2023",
+    name: "Royal Deers",
+    website: "https://deadapecountryclub.com/",
+    twitter: "https://twitter.com/jbhunt17",
+    discord: "https://discord.com/invite/m7BfEftxVp",
+    marketplaceURL:
+      "https://gamma.io/ordinals/collections/dead-ape-country-club",
+    marketplace: "https://nftcalendar.io/marketplace/gamma/",
+    marketplaceName: "Gamma",
+    blockchain: "https://nftcalendar.io/b/bitcoin/",
+    blockchainName: "Bitcoin Ordinals",
+    contract: "",
+    ausist: "",
+    description:
+      "The Dead Ape Country Club project was created to solely be unique artifacts inscribed on the Bitcoin blockchain for all of  perpetuity. While other Ape NFT projects may die out and disappear down the road along with their servers, The perseverance and adoption of Bitcoin will keep this Country Club alive forever. Today, the dead apes are looking to gather all of the legendary names in crypto and Defi to pay homage to all the dead ape projects that might come and go on other chains. It's a reminder to stay true to your vision and never give up.",
+    tags: "",
+  },
+];

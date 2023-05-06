@@ -1,7 +1,7 @@
 import Marketplaces from "@/components/Marketplaces";
 import SlideBar from "@/components/SlideBar";
 import Head from "next/head";
-
+import { nfts } from "../data";
 export default function Home({ articles }: any) {
   return (
     <div>
@@ -16,7 +16,7 @@ export default function Home({ articles }: any) {
       </Head>
       <div className="mt-12 grid lg:grid-cols-3 grid-cols-1 gap-12">
         <div className="lg:col-span-2">
-          <Marketplaces NFTs={articles} />
+          <Marketplaces NFTs={nfts} />
         </div>
         <SlideBar />
       </div>
@@ -24,14 +24,14 @@ export default function Home({ articles }: any) {
   );
 }
 
-export const getStaticProps = async () => {
-  const res = await fetch(`http://localhost:3004/nfts`);
+// export const getStaticProps = async () => {
+//   const res = await fetch(`http://localhost:3004/nfts`);
 
-  const articles = await res.json();
+//   const articles = await res.json();
 
-  return {
-    props: {
-      articles,
-    },
-  };
-};
+//   return {
+//     props: {
+//       articles,
+//     },
+//   };
+// };
