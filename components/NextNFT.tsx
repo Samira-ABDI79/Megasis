@@ -3,7 +3,7 @@ function NextNFT() {
     <>
       <div className="mt-12">
         <h2 className=" mb-2 text-2xl font-semibold  dark:text-yellow-100 ">
-          Don't miss the next NFT drops
+          Dont miss the next NFT drops
         </h2>
         <div className="bg-white border border-gray-200 rounded p-6 mt-4 mb-6">
           <div x-data="contactForm()" className="flex justify-center mt-8 mb-4">
@@ -12,7 +12,7 @@ function NextNFT() {
                 type="hidden"
                 name="_token"
                 value="q4OrFMBhLPnsweyIJCFLl5RQxZt5BtVwYWIolWcL"
-              />{" "}
+              />{' '}
               <div className="flex items-center border-b-2 border-indigo-600 dark:border-lime-600 py-2">
                 <input
                   name="email"

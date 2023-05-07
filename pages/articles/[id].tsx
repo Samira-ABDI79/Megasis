@@ -1,13 +1,12 @@
-import { GetStaticPropsContext } from "next/types/index";
+import { GetStaticPropsContext } from 'next/types/index';
+import { nfts } from '@/data';
 
-import Link from "next/link";
-import Image from "next/image";
-import { useState } from "react";
-import NextNFT from "@/components/NextNFT";
-import SeeAlso from "@/components/SeeAlso";
-import SlideBar from "@/components/SlideBar";
+import { useState } from 'react';
+import NextNFT from '@/components/NextNFT';
+import SeeAlso from '@/components/SeeAlso';
+import SlideBar from '@/components/SlideBar';
 
-const article = ({ article }: any) => {
+const Article = ({ article }: any) => {
   const [popUp, setShowpopUp] = useState(false);
   return (
     <>
@@ -62,7 +61,7 @@ const article = ({ article }: any) => {
                     {popUp ? (
                       <div id="verified pop-up">
                         <div className="absolute top-0 z-10 w-32 p-2 -mt-3 text-sm leading-tight text-white transform -translate-x-1/2 -translate-y-full bg-purple-500 rounded-lg shadow-lg dark:text-gray-300 dark:bg-slate-700">
-                          Drop's mint website was verified by its submitter in
+                          Drops mint website was verified by its submitter in
                           our
                           <a
                             className="underline hover:no-underline hover:font-medium dark:text-lime-200"
@@ -227,21 +226,19 @@ const article = ({ article }: any) => {
 };
 
 export const getStaticProps = async (context: GetStaticPropsContext) => {
-  const res = await fetch(`http://localhost:3004/nfts/${context.params?.id}`);
-
-  const article = await res.json();
-
-  return {
-    props: {
-      article,
-    },
-  };
+  const id = context.params?.id;
+  if (typeof id == 'string') {
+    const article = nfts.find((nft) => nft.id == parseInt(id));
+    return {
+      props: {
+        article,
+      },
+    };
+  }
 };
 
 export const getStaticPaths = async () => {
-  const res = await fetch(`http://localhost:3004/nfts`);
-
-  const articles = await res.json();
+  const articles = nfts;
 
   const ids = articles.map((article: any) => article.id);
 
@@ -254,4 +251,4 @@ export const getStaticPaths = async () => {
   };
 };
 
-export default article;
+export default Article;

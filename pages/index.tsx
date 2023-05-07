@@ -1,8 +1,21 @@
-import Marketplaces from "@/components/Marketplaces";
-import SlideBar from "@/components/SlideBar";
-import Head from "next/head";
-import { nfts } from "../data";
-export default function Home({ articles }: any) {
+import Marketplaces from '@/components/Marketplaces';
+import SlideBar from '@/components/SlideBar';
+import Head from 'next/head';
+import { useEffect, useState } from 'react';
+// import { nfts } from "../data";
+export default function Home() {
+  const [nfts, setNfts] = useState([]);
+  const fetchNfts = async () => {
+    const res = await fetch('http://localhost:3000/api');
+    const data = await res.json();
+    setNfts(data);
+    return data;
+  };
+
+  useEffect(() => {
+    fetchNfts();
+  }, []);
+
   return (
     <div>
       <Head>

@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { tags } from "@/data";
+import { useState, useEffect } from 'react';
+import { tags } from '@/data';
 function Tags() {
   // const [tags, setTags] = useState([]);
 
@@ -20,6 +20,7 @@ function Tags() {
 
         {tags?.map((tag: any) => (
           <a
+            key={tag.id}
             className="block hover:bg-gray-200 hover:text-indigo-600 dark:text-yellow-50 
       dark:hover:bg-zinc-800  dark:hover:text-lime-200 py-2"
             href="/tag/2d/"
