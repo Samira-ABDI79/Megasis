@@ -1,13 +1,13 @@
-import Marketplaces from '@/components/Marketplaces';
-import SlideBar from '@/components/SlideBar';
-import Head from 'next/head';
-import { useEffect, useState } from 'react';
-import { nfts } from '../data';
+import Marketplaces from "@/components/Marketplaces";
+import SlideBar from "@/components/SlideBar";
+import Head from "next/head";
+import { useEffect, useState } from "react";
+import { nfts } from "../data";
 export default function Home({ articles }: any) {
   return (
     <div>
       <Head>
-        <title>My Next.js website</title>
+        <title>Megasis</title>
 
         <meta name="description" content="a demo for roxo.ir/blog" />
 
