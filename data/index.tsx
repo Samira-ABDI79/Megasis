@@ -1,3 +1,77 @@
+export const BlockchainsData = [
+  {
+    id: 1,
+    icon: "Ethereum.webp",
+    text: "Ethereum",
+    count: 133,
+  },
+  {
+    id: 2,
+    icon: "Polygon.webp",
+    text: "Polygon",
+    count: 30,
+  },
+  {
+    id: 3,
+    icon: "Solana.webp",
+    text: "Solana",
+    count: 17,
+  },
+  {
+    id: 4,
+    icon: "Cardano.webp",
+    text: "Cardano",
+    count: 11,
+  },
+  {
+    id: 5,
+    icon: "BitcoinOrdinals.webp",
+    text: "Bitcoin Ordinals",
+    count: 2,
+  },
+  {
+    id: 6,
+    icon: "wax.webp",
+    text: "Wax",
+    count: 5,
+  },
+  {
+    id: 7,
+    icon: "tezos.webp",
+    text: "Tezos",
+    count: 4,
+  },
+  {
+    id: 8,
+    icon: "bsc.webp",
+    text: "Bitcoin Smart Chain",
+    count: 2,
+  },
+  {
+    id: 9,
+    icon: "arbitrum.webp",
+    text: "Arbitrum",
+    count: 2,
+  },
+  {
+    id: 10,
+    icon: "kadena.webp",
+    text: "Kadena",
+    count: 2,
+  },
+  {
+    id: 11,
+    icon: "moonriver.webp",
+    text: "Moonriver",
+    count: 1,
+  },
+  {
+    id: 12,
+    icon: "cronos.webp",
+    text: "Cronos",
+    count: 1,
+  },
+];
 export const tags = [
   {
     id: 1,

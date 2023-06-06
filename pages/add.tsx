@@ -1,4 +1,5 @@
 import CustomInput from "@/components/CustomInput";
+import Dropdown from "@/components/DropDown";
 
 function Add() {
   return (
@@ -26,6 +27,19 @@ function Add() {
                 required={true}
               />
             </div>
+            <div className="bg-[#e5e5e5] h-[1px] w-full my-4"></div>
+            <section>
+              <div>
+                <h3 className="text-lg font-medium leading-6 text-gray-900 dark:text-yellow-100">
+                  Event Details
+                </h3>
+                <p className="mt-1 text-sm text-gray-500 dark:text-gray-300">
+                  Help us categorize the event.
+                </p>
+              </div>
+              <Dropdown />
+            </section>
+
             <div className="bg-[#e5e5e5] h-[1px] w-full my-4"></div>
 
             <section>
