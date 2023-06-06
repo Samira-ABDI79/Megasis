@@ -1,3 +1,47 @@
+export const NewsStoriesData = [
+  {
+    id: 1,
+    name: "Google Cloud Partners With Polygon Labs to Boost Web3 Growth",
+    date: "2 days ago",
+    image:
+      "https://img.freepik.com/premium-psd/3d-illustration-nft-music_544758-2532.jpg?w=826",
+  },
+  {
+    id: 2,
+    name: "Solana to Integrate ChatGPT to Enhance Web3 Experience",
+    date: "3 days ago",
+    image:
+      "https://img.freepik.com/free-psd/3d-nft-icon-fashion-illustration_629802-20.jpg?w=826&t=st=1686065025~exp=1686065625~hmac=d4bda454031dfc1a09525105e3b94344c58c1fc9b9fe53e3863efbf9f3199d21",
+  },
+  {
+    id: 3,
+    name: "Romania Launches NFT Marketplace Backed with Government Support",
+    date: "4 days ago",
+    image:
+      "https://img.freepik.com/premium-photo/3d-rendering-concept-nft-non-fungible-token-artwork-music_138734-685.jpg?w=996",
+  },
+  {
+    id: 4,
+    name: "Toonstar Unveils Its Third NFT-Backed Animated TV Series 'Space Junk'",
+    date: "4 days ago",
+    image:
+      "https://img.freepik.com/free-vector/gradient-nft-concept-illustrated_23-2148949334.jpg?w=826&t=st=1686065130~exp=1686065730~hmac=4e44c8939adb32191e5673db1639d397276f731045a5f6cf547514bc4ebd5762",
+  },
+  {
+    id: 5,
+    name: "Azuki Commences Registration for the Follow the Rabbit Event in Las Vegas",
+    date: "1 week ago",
+    image:
+      "https://img.freepik.com/free-vector/non-fungible-token-concept-flat-design_23-2148963812.jpg?w=826&t=st=1686065157~exp=1686065757~hmac=62d40aaf2bf239377ab40fd7149cf35dbc5dead788ed9aee126eb975dcf75d4b",
+  },
+  {
+    id: 6,
+    name: "Mattel Launches Dedicated P2P NFT Marketplace",
+    date: "1 week ago",
+    image:
+      "https://img.freepik.com/free-vector/gradient-illustrated-nft-concept_23-2148957888.jpg?w=826&t=st=1686065178~exp=1686065778~hmac=09cb7bb216aac48f3740e08da962297f06eac19c9282222b167abd72eb387c23",
+  },
+];
 export const BlockchainsData = [
   {
     id: 1,

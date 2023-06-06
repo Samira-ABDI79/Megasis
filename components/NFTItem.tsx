@@ -2,21 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 const NftItem = ({ NFT }: any) => {
-  console.log("samira" + NFT);
-
   return (
     <Link href={`/articles/${NFT?.id}`}>
-      <div className="flex mx-5 flex-wrap p-4 bg-white  my-1 md:my-0 border-gray-200 w-full border-l border-r border-b">
+      <div className="flex  flex-wrap p-4 bg-white  my-1 md:my-0 border-gray-200 w-full border-l border-r border-b">
         <div className="w-full md:w-2/5">
           <a href="/event/ekos-genesis-art-collection/">
-            {/* <Image
-              className="rounded-sm"
-              loading="lazy"
-              width={100}
-              height={100}
-              alt="NFT image"
-              src={NFT.image}
-            /> */}
             <img src={NFT.image} alt={NFT.name} />
           </a>
         </div>

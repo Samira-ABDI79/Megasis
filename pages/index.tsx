@@ -3,6 +3,8 @@ import SlideBar from "@/components/SlideBar";
 import Head from "next/head";
 import { useEffect, useState } from "react";
 import { nfts } from "../data";
+import AllNews from "@/components/AllNews";
+import NewsStories from "@/components/NewsStories";
 export default function Home({ articles }: any) {
   return (
     <div>
@@ -15,9 +17,11 @@ export default function Home({ articles }: any) {
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="mt-12 grid lg:grid-cols-3 grid-cols-1 gap-12">
-        <div className="lg:col-span-2">
+      <div className="my-12 grid lg:grid-cols-3 grid-cols-1 gap-12">
+        <div className="lg:col-span-2 ">
           <Marketplaces NFTs={articles} />
+          <NewsStories />
+          <AllNews />
         </div>
         <SlideBar />
       </div>
