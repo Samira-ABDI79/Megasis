@@ -66,8 +66,8 @@ const Navbar = () => {
 </svg>
 </button> */}
             </div>
-            <div className="relative items-center hidden py-1 mr-2 rounded md:flex">
-              <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+            <div className="relative items-center hidden py-2 mr-2 rounded md:flex  border-2 border-inherit hover:border-[rgb(53,149,246)] active:border-[rgb(53,149,246)] ">
+              <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none ">
                 <svg
                   className="w-5 h-5 text-gray-800 dark:text-gray-400"
                   viewBox="0 0 20 20"
@@ -87,7 +87,7 @@ const Navbar = () => {
                   id="search"
                   name="search"
                   type="search"
-                  className="block w-full rounded pl-10 text-sm text-gray-800 bg-gray-50 form-input sm:leading-5 dark:bg-gray-800 dark:highlight-white dark:text-gray-300"
+                  className="block w-full rounded pl-10 text-sm text-gray-800 bg-gray-50 form-input sm:leading-5 outline-none "
                   placeholder="Search..."
                 />
               </div>
