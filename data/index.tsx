@@ -1,6 +1,7 @@
 export const NewsStoriesData = [
   {
     id: 1,
+    user: "https://img.freepik.com/free-vector/illustration-user-avatar-icon_53876-5908.jpg?w=740&t=st=1686143016~exp=1686143616~hmac=c58405aed65b48021f142719338b1bc1943e5ecf70dd226c7730c5a1af3324ee",
     name: "Google Cloud Partners With Polygon Labs to Boost Web3 Growth",
     date: "2 days ago",
     image:
@@ -8,6 +9,7 @@ export const NewsStoriesData = [
   },
   {
     id: 2,
+    user: "https://img.freepik.com/premium-vector/3d-realistic-person-people-vector-illustration_156780-246.jpg?w=826",
     name: "Solana to Integrate ChatGPT to Enhance Web3 Experience",
     date: "3 days ago",
     image:
@@ -15,6 +17,7 @@ export const NewsStoriesData = [
   },
   {
     id: 3,
+    user: "https://img.freepik.com/premium-vector/young-man-avatar-character_24877-9475.jpg?w=740",
     name: "Romania Launches NFT Marketplace Backed with Government Support",
     date: "4 days ago",
     image:
@@ -22,6 +25,7 @@ export const NewsStoriesData = [
   },
   {
     id: 4,
+    user: "https://img.freepik.com/premium-vector/anonymous-user-circle-icon-vector-illustration-flat-style-with-long-shadow_520826-1931.jpg?w=740",
     name: "Toonstar Unveils Its Third NFT-Backed Animated TV Series 'Space Junk'",
     date: "4 days ago",
     image:
@@ -29,6 +33,7 @@ export const NewsStoriesData = [
   },
   {
     id: 5,
+    user: "https://img.freepik.com/premium-vector/avatar-profile-icon_188544-4755.jpg?w=740",
     name: "Azuki Commences Registration for the Follow the Rabbit Event in Las Vegas",
     date: "1 week ago",
     image:
@@ -36,6 +41,7 @@ export const NewsStoriesData = [
   },
   {
     id: 6,
+    user: "https://img.freepik.com/premium-vector/young-smiling-man-avatar-man-with-brown-beard-mustache-hair-wearing-yellow-sweater-sweatshirt-3d-vector-people-character-illustration-cartoon-minimal-style_365941-860.jpg?w=740",
     name: "Mattel Launches Dedicated P2P NFT Marketplace",
     date: "1 week ago",
     image:
