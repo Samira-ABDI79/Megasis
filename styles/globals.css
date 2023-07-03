@@ -1,6 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+    .about-text {
+      @apply text-[1.1rem] leading-[2rem] mt-[1.5rem] mb-[0.5rem] break-words tracking-wide
+    }
+}
+.content a {
+    --tw-text-opacity: 1;
+    color: rgb(79 70 229/var(--tw-text-opacity));
+}
 html {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
