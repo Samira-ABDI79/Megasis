@@ -28,7 +28,7 @@ function NewsItem({ News }: any) {
               </div>
               <div className="">
                 <a
-                  href="https://nftcalendar.io/news/google-cloud-partners-with-polygon-labs-for-web3-growth/"
+                  href=" news/google-cloud-partners-with-polygon-labs-for-web3-growth/"
                   className="px-5 py-3 text-sm text-gray-800 bg-gray-200 rounded dark:bg-stone-900 dark:text-gray-200 hover:bg-gray-300 hover:text-black"
                 >
                   Read More
